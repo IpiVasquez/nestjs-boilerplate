@@ -1,8 +1,9 @@
 import { Module } from '@nestjs/common';
 
-import { HttpLoggerInterceptor } from '@/common/http-logger.interceptor';
+/* istanbul ignore file */
 import { APP_INTERCEPTOR } from '@nestjs/core';
 
+import { HttpLoggerInterceptor } from '@/common/http-logger.interceptor';
 import { Logger } from '@/common/logger';
 
 const httpInterceptor = {

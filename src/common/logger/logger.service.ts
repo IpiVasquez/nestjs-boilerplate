@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import { Injectable, LoggerService } from '@nestjs/common';
 import { createLogger, transports, format } from 'winston';
 import * as winston from 'winston';

@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import { catchError, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import {
